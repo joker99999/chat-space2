@@ -1,0 +1,35 @@
+.content
+  .main-top
+    .main-top-left
+      .main-top-left-text1
+        test
+      .main-top-left-text2
+        Member :masa
+    .main-top-right
+      = link_to '/', class: 'btn' do
+        Edit
+  .main-content
+    .main-top-content
+      .main-top-content1
+        masa
+      .main-top-content2
+        2019/11/20[wed] 17:40:30
+    .main-bottom-content
+      おはよう！
+    .main-top-content
+      .main-top-content1
+        masa
+      .main-top-content2
+        2019/11/20[wed] 17:43:35
+    .main-bottom-content
+      今日は夜から雨
+  .bottom-content
+    .bottom-content-box
+      .bottom-content-box-text
+        %input.input-text{placeholder: "type a message",class: 'input-text'}
+      .bottom-content-box-img
+        %label{class: "input-box__image"}
+        = icon('fas', 'image')
+        %input{type: "file"}
+    .bottom-content-btn
+      %input.input-btn{type:"submit", placeholder:"SEND"}
